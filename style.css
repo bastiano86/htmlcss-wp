@@ -15,7 +15,7 @@ h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: white;
-  font-size: 24pt;
+  font-size: 24px;
 }
 /* Header */
 header {
@@ -78,22 +78,24 @@ header ul li:hover {
 
 .content-article .big-title {
   margin-left: 20px;
-  margin-top: px;
+  margin-top: 350px;
+
 
 }
 .content-article h1 {
   font-weight: 300;
-  font-size: 21pt;
-  line-height: 23pt;
-  display: inline-block;
+  font-size: 35px;
+  line-height: 30px;
+  margin-bottom: 12px;
+
 }
 
 .content-article p {
   color: white;
   font-weight: 200;
-  font-size: 12pt;
-  line-height: 14pt;
-  display: inline-block;
+  font-size: 15px;
+  line-height: 20px;
+
 }
 
 
