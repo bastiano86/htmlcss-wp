@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  margin: 20px 80px;
+  margin: 20px 60px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
 }
@@ -13,7 +13,7 @@ body{
 h1{
   vertical-align: middle;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   color: white;
   font-size: 24pt;
 }
@@ -47,11 +47,32 @@ header ul li:hover {
 /* Upper Space */
 .content-article {
   line-height: 180px;
+  background-color: black;
+  background-position: center;
   width: 100%;
-  background-image: url(https://i.stack.imgur.com/cQbV2.png);
-  height: 200px;
+  height: 500px;
   margin-bottom: 10px;
+  border-radius: 15px;
 }
+.content-article-img {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.content-article-img:hover {
+  object-fit: cover;
+  opacity: 0.9;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+
+
+
 /* Lower Space */
 .content-main {
  background-image: url(https://i.stack.imgur.com/cQbV2.png);
