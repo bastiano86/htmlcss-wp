@@ -3,10 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border-radius: 5px;
 }
 body{
   margin: 20px 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
 }
 
 h1{
@@ -22,10 +23,27 @@ header {
   height: 100px;
   margin-bottom: 10px;
 }
-
 header img {
   height: 50px;
+  margin-bottom: 5px;
 }
+header ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 15px;
+  color: grey;
+}
+
+header ul li:hover {
+  display: inline-block;
+  list-style: none;
+  margin-right: 15px;
+  color: black;
+  background-color: lightyellow;
+
+}
+
+
 /* Upper Space */
 .content-article {
   line-height: 180px;
