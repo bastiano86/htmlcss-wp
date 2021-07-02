@@ -14,7 +14,7 @@ h1{
   vertical-align: middle;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: white;
+  color: black;
   font-size: 24px;
 }
 /* Header */
@@ -34,7 +34,6 @@ header ul li {
   color: grey;
   padding: 3px;
 }
-
 header ul li:hover {
   display: inline-block;
   list-style: none;
@@ -44,23 +43,21 @@ header ul li:hover {
   border-radius: 5px;
   padding: 3px;
 }
-
-
 /* Upper Space */
 .content-article {
   line-height: 180px;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+  background-image:linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2)),
   url(img/banner.jpg);
   display: inline-block;
   background-position: center;
   width: 100%;
   height: 500px;
-  margin: 0 auto;
+  margin-bottom: 10px;
   border-radius: 15px;
 }
 .content-article:hover{
   line-height: 180px;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
   url(img/banner.jpg);
   background-position: center;
   width: 100%;
@@ -75,7 +72,6 @@ header ul li:hover {
   margin-bottom: 10px;
   border-radius: 15px;
 }
-
 .content-article .big-title {
   margin-left: 20px;
   margin-top: 350px;
@@ -87,16 +83,15 @@ header ul li:hover {
   font-size: 35px;
   line-height: 30px;
   margin-bottom: 12px;
+  color: white;
 
 }
-
 .content-article p {
   color: white;
   font-weight: 200;
   font-size: 15px;
   line-height: 20px;
 }
-
 
 
 /* Lower Space */
@@ -121,11 +116,11 @@ header ul li:hover {
 /* Spazio sopra i float */
 .upper-space {
   width: 100%;
-  height:100px;
+  height:70px;
   margin: 10px auto;
-  background-color: #b8b8b8;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23656565' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-color: white;
 }
+
 
 .big-column{
   width: calc(50% - 20px);
